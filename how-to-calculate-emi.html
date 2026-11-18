@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Calculate EMI: Formula and Worked Example | Instant Calc Hub</title>
+<meta name="description" content="Learn how EMI is calculated with the formula and a step-by-step rupee example, and see how interest and principal split each month.">
+<link rel="canonical" href="https://instantcalchub.github.io/how-to-calculate-emi.html">
+<style>
+:root{--bg:#ffffff;--text:#1d2733;--muted:#566474;--brand:#0b5d5b;--line:#d9e0e6;--soft:#eef5f4}
+@media (prefers-color-scheme:dark){:root{--bg:#10171d;--text:#e8edf1;--muted:#a3b0bc;--brand:#5fc2bd;--line:#26323c;--soft:#16222a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--brand)}
+header,main,footer{max-width:760px;margin:0 auto;padding:0 20px}
+header{padding-top:28px;padding-bottom:8px;font-weight:700;font-size:1.05rem}
+header a{text-decoration:none;color:inherit}
+h1{font-size:clamp(1.9rem,5.5vw,2.6rem);line-height:1.2;margin:36px 0 12px}
+h2{font-size:1.45rem;margin:40px 0 10px}
+.lead{font-size:1.2rem;color:var(--muted);margin:0 0 24px}
+.btn{display:inline-block;background:var(--brand);color:var(--bg);padding:12px 22px;border-radius:8px;font-weight:600;text-decoration:none}
+.btn:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+.formula{background:var(--soft);border-left:4px solid var(--brand);padding:14px 18px;border-radius:6px;font-size:1.1rem;overflow-x:auto}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:420px}
+th,td{border:1px solid var(--line);padding:10px 12px;text-align:left}
+th{background:var(--soft)}
+ul,ol{padding-left:22px}li{margin:6px 0}
+details{border-bottom:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;font-weight:600}
+details p{margin:10px 0 0;color:var(--muted)}
+.crumb{margin-top:20px;font-size:.95rem;color:var(--muted)}
+footer{padding-top:40px;padding-bottom:48px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<header><a href="/">Instant Calc Hub</a></header>
+<main>
+
+<p class="crumb"><a href="/">Home</a> / Guides</p>
+<h1>How to Calculate EMI: Formula and Worked Example</h1>
+<p class="lead">An EMI is the fixed amount you pay every month to repay a loan. Here is the formula, one example worked out in rupees, and what each payment is made of.</p>
+
+<h2>The EMI formula</h2>
+<p class="formula"><strong>EMI = P × r × (1 + r)<sup>n</sup> ÷ [(1 + r)<sup>n</sup> − 1]</strong></p>
+<ul>
+  <li><strong>P</strong> is the loan amount (the principal).</li>
+  <li><strong>r</strong> is the monthly interest rate. Divide the yearly rate by 12, then by 100. A 9% yearly rate gives r = 0.0075.</li>
+  <li><strong>n</strong> is the number of monthly payments. A 5-year loan has n = 60.</li>
+</ul>
+
+<h2>Worked example</h2>
+<p>Take a loan of ₹10,00,000 at 9% a year for 5 years.</p>
+<ol>
+  <li>P = 10,00,000</li>
+  <li>r = 9 ÷ 12 ÷ 100 = 0.0075</li>
+  <li>n = 5 × 12 = 60</li>
+  <li>(1 + r)<sup>n</sup> = (1.0075)<sup>60</sup> ≈ 1.5657</li>
+  <li>EMI = 10,00,000 × 0.0075 × 1.5657 ÷ (1.5657 − 1) ≈ <strong>₹20,758</strong></li>
+</ol>
+<div class="scroll">
+<table>
+  <tr><th>Item</th><th>Amount</th></tr>
+  <tr><td>Monthly EMI</td><td>₹20,758</td></tr>
+  <tr><td>Total paid over 60 months</td><td>about ₹12,45,501</td></tr>
+  <tr><td>Total interest paid</td><td>about ₹2,45,501</td></tr>
+</table>
+</div>
+<p>Small differences from your bank’s figure can come from rounding or from how the bank handles the first payment date.</p>
+
+<h2>What each payment is made of</h2>
+<p>Every EMI has two parts: interest on the balance you still owe, and repayment of the principal. Interest is highest in the first month and shrinks as the balance falls. For the example above, the first payment splits like this:</p>
+<ul>
+  <li>Interest for month 1: 10,00,000 × 0.0075 = ₹7,500</li>
+  <li>Principal repaid: 20,758 − 7,500 ≈ ₹13,258</li>
+  <li>Balance after month 1: about ₹9,86,742</li>
+</ul>
+<p>Over the months the interest share falls and the principal share rises, while the EMI stays the same.</p>
+
+<h2>How rate and tenure change your EMI</h2>
+<ul>
+  <li><strong>A longer tenure</strong> lowers the monthly EMI but increases the total interest you pay.</li>
+  <li><strong>A shorter tenure</strong> raises the EMI but reduces the total interest.</li>
+  <li><strong>A lower rate</strong> reduces both the EMI and the total interest.</li>
+  <li><strong>A larger down payment</strong> lowers P, which lowers everything else.</li>
+</ul>
+
+<h2>Skip the maths</h2>
+<p>You can try different amounts, rates and tenures yourself and see the result as you type.</p>
+<p><a class="btn" href="https://instantcalchub.com/emi-calculator/">Open the EMI calculator</a></p>
+<p>Planning a home purchase? Use the <a href="https://instantcalchub.com/home-loan-emi-calculator/">home loan EMI calculator</a>. To see how a monthly investment grows, try the <a href="https://instantcalchub.com/sip-calculator/">SIP calculator</a>.</p>
+
+<h2>Frequently asked questions</h2>
+<details><summary>What does EMI stand for?</summary><p>EMI stands for equated monthly instalment: the fixed amount paid each month until the loan is cleared.</p></details>
+<details><summary>Is the EMI the same every month?</summary><p>On a fixed-rate loan, yes. The split between interest and principal changes each month, but the total stays the same. On a floating-rate loan, the EMI or the tenure can change when the rate changes.</p></details>
+<details><summary>Why is so much of my first EMI interest?</summary><p>Interest is charged on the outstanding balance, which is largest at the start. As you repay principal, the interest part of each EMI shrinks.</p></details>
+<details><summary>Does a prepayment reduce my EMI?</summary><p>It depends on your lender. A part-payment usually either lowers the EMI or shortens the tenure. Ask your bank which option applies and whether any charges apply.</p></details>
+
+</main>
+<footer>
+<p>© 2026 Instant Calc Hub. Figures are estimates, not financial advice. <a href="/">Back to home</a> · <a href="https://instantcalchub.com/">Visit instantcalchub.com</a></p>
+</footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What does EMI stand for?","acceptedAnswer":{"@type":"Answer","text":"EMI stands for equated monthly instalment: the fixed amount paid each month until the loan is cleared."}},
+{"@type":"Question","name":"Is the EMI the same every month?","acceptedAnswer":{"@type":"Answer","text":"On a fixed-rate loan, yes. The split between interest and principal changes each month, but the total stays the same. On a floating-rate loan, the EMI or the tenure can change when the rate changes."}},
+{"@type":"Question","name":"Why is so much of my first EMI interest?","acceptedAnswer":{"@type":"Answer","text":"Interest is charged on the outstanding balance, which is largest at the start. As you repay principal, the interest part of each EMI shrinks."}}
+]}
+</script>
+</body>
+</html>
